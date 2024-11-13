@@ -8,7 +8,7 @@ int main()
 	cout << "Is it raining? [y/n]: ";
 	cin >> choice;
 	if(choice == 'y') {
-		cout << "Get an umbrella and kapote.";
+		cout << "Get an umbrella.";
 	}
 	else if(choice == 'n') {
 		cout << "It is sunny.";
