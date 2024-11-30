@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	char symbol;
-	cout << "Enter symbol: ";
+	cout << "Enter symbol (*, ^, #, $, @): ";
 	cin >> symbol;
 	for (int i = 0; i < 8; i++) {
 		for (int j = 0; j < i; j++) {
