@@ -7,9 +7,9 @@ int main() {
         for (int j = 0; j < i; j++) {
             cout << " ";
         }
-		for (int j = i; j < 8; j++) {
-			cout << "#";
-		}
+	for (int j = i; j < 8; j++) {
+		cout << "#";
+	}
         cout << endl;
     }
 
