@@ -2,14 +2,11 @@
 using namespace std;
 
 int main() {
-    int rows = 8; // Number of rows
-
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < rows; j++) {
-            cout << "#";
-        }
-        cout << endl;
-    }
-
-    return 0;
+	for (int i = 0; i < 9; ++i) {
+		for (int j = 1; j < 8; ++j) {
+			cout << ((i + j) % 2 == 0 ? "# *" : " # * ");
+		}
+		cout << endl;
+	}
+	return 0;
 }
